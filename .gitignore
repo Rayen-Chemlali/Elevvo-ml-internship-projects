@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+.idea/
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore data files
+*.csv
+*.pkl
+*.h5
+*.db
+
+# Ignore visualization outputs
+visualizations/mfccs/
+visualizations/spectrograms/
+visualizations/waveforms/
+
+# Ignore model files
+models/
+
+# Ignore spectrogram data
+spectrograms_data/
+
+# Ignore results
+results/tabular_model_comparison.csv
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+*.tmp
