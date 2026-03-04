@@ -1,11 +1,15 @@
 """
 config.py
 Shared paths and constants for the GTZAN Music Genre Classification project.
+All Python source files are inside src/ — output folders are at project root.
 """
 
 import os
 
-BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+SRC_DIR  = os.path.dirname(os.path.abspath(__file__))
+
+BASE_DIR = os.path.dirname(SRC_DIR)
+
 VIS_DIR     = os.path.join(BASE_DIR, 'visualizations')
 MODELS_DIR  = os.path.join(BASE_DIR, 'models')
 RESULTS_DIR = os.path.join(BASE_DIR, 'results')

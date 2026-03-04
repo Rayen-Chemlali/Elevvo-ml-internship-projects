@@ -15,18 +15,18 @@ venv/
 *.db
 
 # Ignore visualization outputs
-task6/visualizations/mfccs/
-task6/visualizations/spectrograms/
-task6/visualizations/waveforms/
+task6-music-genre-classification/visualizations/mfccs/
+task6-music-genre-classification/visualizations/spectrograms/
+task6-music-genre-classification/visualizations/waveforms/
 
 # Ignore model files
-task6/models/
+task6-music-genre-classification/models/
 
 # Ignore spectrogram data
-task6/spectrograms_data/
+task6-music-genre-classification/spectrograms_data/
 
 # Ignore results
-task6/results/tabular_model_comparison.csv
+task6-music-genre-classification/results/tabular_model_comparison.csv
 
 
 # Ignore system files
